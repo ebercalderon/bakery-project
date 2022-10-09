@@ -1,6 +1,7 @@
 import AboutUs from 'containers/AboutUs';
 import Hero from 'containers/Hero';
 import MenuTitle from 'containers/MenuTitle';
+import Menu from 'containers/Menu';
 
 export default function Home() {
     return (
@@ -9,6 +10,7 @@ export default function Home() {
                 <Hero/>
                 <AboutUs />
                 <MenuTitle />
+                <Menu />
             </div>
         </>
     );
