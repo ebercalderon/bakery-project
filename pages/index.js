@@ -1,3 +1,4 @@
+import AboutUs from 'containers/AboutUs';
 import Hero from 'containers/Hero';
 
 export default function Home() {
@@ -5,7 +6,7 @@ export default function Home() {
         <>
             <div>
                 <Hero/>
-                <Hero/>
+                <AboutUs />
             </div>
         </>
     );
