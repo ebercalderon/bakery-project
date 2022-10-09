@@ -1,9 +1,11 @@
-import Index from 'containers/Hero';
+import Hero from 'containers/Hero';
 
 export default function Home() {
     return (
         <>
-            <Index/>
+            <div>
+                <Hero/>
+            </div>
         </>
     );
 }

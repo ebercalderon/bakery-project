@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Index = () => {
+const Hero = () => {
     return (
         <section
             style={{
@@ -34,4 +34,4 @@ const Index = () => {
     );
 };
 
-export default Index;
+export default Hero;
