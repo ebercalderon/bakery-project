@@ -1,6 +1,7 @@
 import BackToTop from 'components/BackToTop';
 import Footer from 'components/Footer';
 import Navbar from 'components/Navbar';
+import Switcher from 'components/Switcher';
 import Head from 'next/head';
 import Script from 'next/script';
 import 'slick-carousel/slick/slick.css';
@@ -14,6 +15,22 @@ function MyApp({Component, pageProps}) {
             <Head>
                 <meta charSet='UTF-8'/>
 
+                <title>
+                    Techwind - Tailwind CSS Multipurpose Landing Page Template
+                </title>
+                <meta
+                    name='viewport'
+                    content='width=device-width, initial-scale=1, shrink-to-fit=no'
+                />
+                <meta
+                    content='Tailwind CSS Saas & Software Landing Page Template'
+                    name='description'
+                />
+                <meta name='author' content='Shreethemes' />
+                <meta name='website' content='https://shreethemes.in/' />
+                <meta name='email' content='support@shreethemes.in' />
+                <meta name='version' content='1.4.0' />
+
                 <link rel='shortcut icon' href='assets/images/favicon.ico' />
 
                 <link href='assets/libs/tobii/css/tobii.min.css' rel='stylesheet' />
@@ -26,15 +43,17 @@ function MyApp({Component, pageProps}) {
                     type='text/css'
                     rel='stylesheet'
                 />
+                {/* eslint-disable-next-line @next/next/no-css-tags */}
                 <link rel='stylesheet' href='assets/css/icons.min.css' />
                 <link rel='stylesheet' href='assets/css/tailwind.min.css' />
             </Head>
 
             <ThemeProvider attribute='class' defaultTheme='light'>
-                <Navbar/>
+                <Navbar />
                 <Component {...pageProps} />
-                <Footer/>
-                <BackToTop/>
+                <Footer />
+                <BackToTop />
+                <Switcher />
             </ThemeProvider>
 
             <Script
