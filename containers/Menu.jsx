@@ -5,7 +5,7 @@ const Menu = () => {
     const [selectedCategory, setSelectedCategory] = useState(null);
     console.log('selec: ', selectedCategory);
     return (
-        <section className=' relative md:py-24 py-16 md:pt-12  bg-no-repeat bg-top'>
+        <section className='relative md:py-24 py-16 md:pt-12  bg-no-repeat bg-top'>
             <div className='container'>
                 <div className='grid grid-cols-1 items-center gap-[30px]'>
                     <div className='filters-group-wrap text-center'>

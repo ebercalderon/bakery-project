@@ -8,7 +8,7 @@ const Instagram = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: screenWidth <= 600 ? 3 : screenWidth <= 900 ? 9 : 12,
+        slidesToShow: screenWidth <= 600 ? 3 : screenWidth <= 900 ? 9 : 10,
         slidesToScroll: 1,
     };
 
@@ -20,7 +20,7 @@ const Instagram = () => {
         }
     });
     return (
-        <div className='container-fluid relative'>
+        <div className='container-fluid relative px-8 bg-indigo-600/5'>
             <div className='grid grid-cols-1 relative '>
                 <Slider {...settings} className='bg-dark-footer'>
                     {instagramData.map((item, index) => (
