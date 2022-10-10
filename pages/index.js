@@ -11,12 +11,12 @@ export default function Home() {
         <>
             <div>
                 <Hero/>
-                <AboutUs />
-                <MenuTitle />
-                <Menu />
-                <Reservation />
-                <Testimonials />
-                <Instagram />
+                <AboutUs/>
+                <MenuTitle/>
+                <Menu/>
+                <Reservation/>
+                <Testimonials/>
+                <Instagram/>
             </div>
         </>
     );
