@@ -79,7 +79,7 @@ const Footer = () => {
                                     </li>
                                     <li className='inline'>
                                         <a
-                                            href='https://www.instagram.com/shreethemes/'
+                                            href='layouts/Footer'
                                             target='_blank'
                                             rel='noopener noreferrer'
                                             className='btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600'

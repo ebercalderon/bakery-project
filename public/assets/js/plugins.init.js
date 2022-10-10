@@ -572,7 +572,7 @@ try {
 //=========================================//
 
 try {
-    /* common fuctions */
+    /* layouts fuctions */
     function el(selector) {
         return document.querySelector(selector);
     }

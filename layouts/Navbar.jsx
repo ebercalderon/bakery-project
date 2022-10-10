@@ -34,7 +34,7 @@ const Navbar = () => {
     return (
         <nav id='topnav' className='defaultscroll is-sticky'>
             <div className='container'>
-                <Link href='/'>
+                <Link href='/pages'>
                     <a className='logo pl-0'>
 						<span className='inline-block dark:hidden'>
 							<img
