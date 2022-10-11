@@ -26,7 +26,7 @@ const Breadcrumb = ({bgImage, title}) => {
                     <ul className='breadcrumb tracking-[0.5px] breadcrumb-light mb-0 inline-block'>
                         <li className='inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white'>
                             <Link href={'/'}>
-                                <a>Techwind</a>
+                                <a>Panadería Grisela</a>
                             </Link>
                         </li>
                         <li className='inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white'>

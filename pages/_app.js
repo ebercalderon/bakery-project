@@ -16,19 +16,19 @@ function MyApp({Component, pageProps}) {
                 <meta charSet='UTF-8'/>
 
                 <title>
-                    Techwind - Tailwind CSS Multipurpose Landing Page Template
+                    Panadería, Pastelería Y Bodega Grisela
                 </title>
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1, shrink-to-fit=no'
                 />
                 <meta
-                    content='Tailwind CSS Saas & Software Landing Page Template'
+                    content='Panadería, Pastelería Y Bodega Grisela'
                     name='description'
                 />
-                <meta name='author' content='Shreethemes'/>
-                <meta name='website' content='https://shreethemes.in/'/>
-                <meta name='email' content='support@shreethemes.in'/>
+                <meta name='author' content='Panadería Grisela'/>
+                <meta name='website' content='https://panaderíagrisela.com/'/>
+                <meta name='email' content='support@panaderíagrisela.com'/>
                 <meta name='version' content='1.4.0'/>
 
                 <link rel='shortcut icon' href='assets/images/favicon.ico'/>
