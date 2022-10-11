@@ -1,27 +1,3 @@
-/* Template Name: Techwind - Multipurpose Tailwind CSS Landing Page Template
-   Author: Shreethemes
-   Email: support@shreethemes.in
-   Website: https://shreethemes.in
-   Version: 1.4.0
-   Created: May 2022
-   File Description: Main JS file of the template
-*/
-
-/*********************************/
-/*         INDEX                 */
-/*================================
- *     01.  Loader               *
- *     02.  Toggle Menus         *
- *     03.  Active Menu          *
- *     04.  Clickable Menu       *
- *     05.  Back to top          *
- *     06.  Feather icon         *
- *     06.  DD Menu              *
- *     06.  Active Sidebar Menu  *
- *     07.  Contact us           *
- *     08.  Wow Animation JS     *
- ================================*/
-
 window.addEventListener('load', fn, false);
 
 //  window.onload = function loader() {
@@ -33,19 +9,13 @@ function fn() {
             document.getElementById('preloader').style.opacity = '0';
         }, 350);
     }
-    // Menus
-    activateMenu();
+    // Products
+    activateProduct();
 }
 
-//Menu
-/*********************/
-/* Toggle Menu */
-/*********************/
+//Product
 
-/*********************/
-/*    Menu Active    */
-
-/*********************/
+/*    Product Active    */
 function getClosest(elem, selector) {
     // Element.matches() polyfill
     if (!Element.prototype.matches) {
@@ -71,38 +41,38 @@ function getClosest(elem, selector) {
     return null;
 }
 
-function activateMenu() {
-    var menuItems = document.getElementsByClassName('sub-menu-item');
-    if (menuItems) {
-        var matchingMenuItem = null;
-        for (var idx = 0; idx < menuItems.length; idx++) {
-            if (menuItems[idx].href === window.location.href) {
-                matchingMenuItem = menuItems[idx];
+function activateProduct() {
+    var productItems = document.getElementsByClassName('sub-products-item');
+    if (productItems) {
+        var matchingProductItem = null;
+        for (var idx = 0; idx < productItems.length; idx++) {
+            if (productItems[idx].href === window.location.href) {
+                matchingProductItem = productItems[idx];
             }
         }
 
-        if (matchingMenuItem) {
-            matchingMenuItem.classList.add('active');
-            var immediateParent = getClosest(matchingMenuItem, 'li');
+        if (matchingProductItem) {
+            matchingProductItem.classList.add('active');
+            var immediateParent = getClosest(matchingProductItem, 'li');
             if (immediateParent) {
                 immediateParent.classList.add('active');
             }
 
-            var parent = getClosest(matchingMenuItem, '.parent-menu-item');
+            var parent = getClosest(matchingProductItem, '.parent-products-item');
             if (parent) {
                 parent.classList.add('active');
-                var parentMenuitem = parent.querySelector('.menu-item');
-                if (parentMenuitem) {
-                    parentMenuitem.classList.add('active');
+                var parentProductItem = parent.querySelector('.products-item');
+                if (parentProductItem) {
+                    parentProductItem.classList.add('active');
                 }
-                var parentOfParent = getClosest(parent, '.parent-parent-menu-item');
+                var parentOfParent = getClosest(parent, '.parent-parent-products-item');
                 if (parentOfParent) {
                     parentOfParent.classList.add('active');
                 }
             } else {
                 var parentOfParent = getClosest(
-                    matchingMenuItem,
-                    '.parent-parent-menu-item'
+                    matchingProductItem,
+                    '.parent-parent-products-item'
                 );
                 if (parentOfParent) {
                     parentOfParent.classList.add('active');
@@ -112,9 +82,7 @@ function activateMenu() {
     }
 }
 
-/*********************/
 /*  Clickable manu   */
-/*********************/
 if (document.getElementById('navigation')) {
     var elements = document
         .getElementById('navigation')
@@ -122,16 +90,14 @@ if (document.getElementById('navigation')) {
     for (var i = 0, len = elements.length; i < len; i++) {
         elements[i].onclick = function (elem) {
             if (elem.target.getAttribute('href') === 'javascript:void(0)') {
-                var submenu = elem.target.nextElementSibling.nextElementSibling;
-                submenu.classList.toggle('open');
+                var subproduct = elem.target.nextElementSibling.nextElementSibling;
+                subproduct.classList.toggle('open');
             }
         };
     }
 }
-/*********************/
-/*   Menu Sticky     */
 
-/*********************/
+/*   Product Sticky     */
 function windowScroll() {
     const navbar = document.getElementById('topnav');
     if (navbar != null) {
@@ -150,10 +116,8 @@ window.addEventListener('scroll', (ev) => {
     ev.preventDefault();
     windowScroll();
 });
-/*********************/
-/*    Back To TOp    */
-/*********************/
 
+/*    Back To TOp    */
 window.onscroll = function () {
     scrollFunction();
 };
@@ -179,52 +143,38 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-/*********************/
 /*  Active Sidebar   */
-/*********************/
 (function () {
     var current = location.pathname.substring(
         location.pathname.lastIndexOf('/') + 1
     );
     if (current === '') return;
-    var menuItems = document.querySelectorAll('.sidebar-nav a');
-    for (var i = 0, len = menuItems.length; i < len; i++) {
-        if (menuItems[i].getAttribute('href').indexOf(current) !== -1) {
-            menuItems[i].parentElement.className += ' active';
+    var productItems = document.querySelectorAll('.sidebar-nav a');
+    for (var i = 0, len = productItems.length; i < len; i++) {
+        if (productItems[i].getAttribute('href').indexOf(current) !== -1) {
+            productItems[i].parentElement.className += ' active';
         }
     }
 })();
 
-/*********************/
 /*   Feather Icons   */
-/*********************/
 feather.replace();
 
-/*********************/
-/*    DD Menu        */
-/*********************/
-var ddmenu = document.getElementsByClassName('dd-menu');
-for (var i = 0, len = ddmenu.length; i < len; i++) {
-    ddmenu[i].onclick = function (elem) {
+/*    DD Product        */
+var ddproducts = document.getElementsByClassName('dd-products');
+for (var i = 0, len = ddproducts.length; i < len; i++) {
+    ddproducts[i].onclick = function (elem) {
         elem.stopPropagation();
     };
 }
 
-/*********************/
-/*     Small Menu    */
-/*********************/
+/*     Small Product    */
 try {
     var spy = new Gumshoe('#navmenu-nav a');
 } catch (err) {
 }
 
-/*********************/
-/* Dark & Light Mode */
-/*********************/
-
-/*********************/
 /*      WoW Js       */
-/*********************/
 try {
     new WOW().init();
 } catch (error) {

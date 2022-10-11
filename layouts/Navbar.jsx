@@ -4,19 +4,19 @@ import {useEffect} from 'react';
 const Navbar = () => {
     const navbars = [
         {
-            title: 'Home',
+            title: 'Inicio',
             url: '/',
         },
         {
-            title: 'Menu',
-            url: '/menu',
+            title: 'Productos',
+            url: '/products',
         },
         {
-            title: 'About',
+            title: 'Nosotros',
             url: '/about',
         },
         {
-            title: 'Contact',
+            title: 'Contacto',
             url: '/contact',
         },
     ];
