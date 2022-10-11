@@ -5,7 +5,7 @@ import Link from 'next/link';
 const AboutPage = () => {
     return (
         <>
-            <Breadcrumb bgImage={'assets/images/menu.jpg'} title='About Us'/>
+            <Breadcrumb bgImage={'assets/images/menu.jpg'} title='SOBRE NOSOTROS'/>
 
             <section className='relative md:py-24 py-16'>
                 <div className='container'>
@@ -41,32 +41,31 @@ const AboutPage = () => {
                             <div className='lg:ml-5'>
                                 <div className='flex mb-4'>
 									<span className='text-indigo-600 text-2xl font-bold mb-0'>
+                                        +
 										<span
                                             className='counter-value text-6xl font-bold'
                                             data-target={15}
                                         >
-											1
+											20
 										</span>
-										+
+
 									</span>
                                     <span className='self-end font-medium ml-2'>
-										Years <br/> Experience
+										Años de <br/> Experiencia
 									</span>
                                 </div>
                                 <h3 className='mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold'>
-                                    Who we are ?
+                                    ¿Quiénes somos?
                                 </h3>
                                 <p className='text-slate-400 max-w-xl'>
-                                    Start working with Tailwind CSS that can provide everything
-                                    you need to generate awareness, drive traffic, connect. Dummy
-                                    text is text that is used in the publishing industry or by web
-                                    designers to occupy the space which will later be filled with
-                                    real content.
+                                    Somos una empresa dedicada a la elaboración, producción y distribución de gran variedad de pan,
+                                    tenemos una importante cartera de clientes, gracias a nuestros 25 años de existencia dentro del distrito de
+                                    Cercado de Lima.
                                 </p>
                                 <div className='mt-6'>
                                     <Link href='/contact'>
                                         <a className='btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mr-2 mt-2'>
-                                            <i className='uil uil-envelope'/> Contact us
+                                            <i className='uil uil-envelope'/> Contáctanos
                                         </a>
                                     </Link>
                                 </div>
@@ -79,11 +78,25 @@ const AboutPage = () => {
                 <div className='container'>
                     <div className='grid grid-cols-1 pb-8 text-center'>
                         <h3 className='mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold'>
-                            Key Features
+                            Misión
                         </h3>
                         <p className='text-slate-400 max-w-xl mx-auto'>
-                            Start working with Tailwind CSS that can provide everything you
-                            need to generate awareness, drive traffic, connect.
+                            Ofrecer a nuestros clientes productos alimenticios elaborados con óptima
+                            calidad que satisfagan completamente sus necesidades, nos identificamos por
+                            ser una empresa que trabaja con amor, carisma y alta eficacia operacional que
+                            permita crear una relación duradera con nuestros clientes.
+                        </p>
+                    </div>
+                    {/*end grid*/}
+                    <div className='grid grid-cols-1 pb-8 text-center'>
+                        <h3 className='mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold'>
+                            Visión
+                        </h3>
+                        <p className='text-slate-400 max-w-xl mx-auto'>
+                            Llegar a ser la empresa líder en la elaboración, venta por mostrador de
+                            productos alimenticios de panadería mediante la constante innovación,
+                            procesos y servicios que marquen la pauta creciendo rentablemente y
+                            logrando mayor desarrollo y bienestar para sus inversionistas y trabajadores.
                         </p>
                     </div>
                     {/*end grid*/}

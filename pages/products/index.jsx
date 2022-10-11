@@ -4,7 +4,7 @@ import Menu from 'containers/Menu';
 const MenuPage = () => {
     return (
         <>
-            <Breadcrumb bgImage={'assets/images/cta.jpg'} title='Our Menu' />
+            <Breadcrumb bgImage={'assets/images/cta.jpg'} title='NUESTROS PRODUCTOS' />
             <Menu />
         </>
     );

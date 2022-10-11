@@ -5,7 +5,7 @@ const ContactsPage = () => {
     return (
         <>
             <div>
-                <Breadcrumb bgImage={'assets/images/menu.jpg'} title='Contact Us'/>
+                <Breadcrumb bgImage={'assets/images/menu.jpg'} title='CONTÁCTANOS'/>
                 <section className='relative md:py-24 py-16'>
                     <div className='container'>
                         <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]'>
