@@ -24,7 +24,7 @@ const ContactForm = () => {
             <div className='lg:ml-5'>
                 <div className='bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-800 p-6'>
                     <h3 className='mb-6 text-2xl leading-normal font-medium'>
-                        Get in touch !
+                        Ponte en contacto
                     </h3>
                     <form onSubmit={handleSubmit}>
                         <p className='mb-0' id='error-msg'/>
@@ -33,7 +33,7 @@ const ContactForm = () => {
                             <div className='lg:col-span-6 mb-5'>
                                 <div className='text-left'>
                                     <label htmlFor='name' className='font-semibold'>
-                                        Your Name:
+                                        Nombres:
                                     </label>
                                     <div className='form-icon relative mt-2'>
                                         <i
@@ -47,7 +47,7 @@ const ContactForm = () => {
                                             id='name'
                                             type='text'
                                             className='form-input pl-11'
-                                            placeholder='Name :'
+                                            placeholder='Nombres'
                                         />
                                     </div>
                                 </div>
@@ -55,7 +55,7 @@ const ContactForm = () => {
                             <div className='lg:col-span-6 mb-5'>
                                 <div className='text-left'>
                                     <label htmlFor='email' className='font-semibold'>
-                                        Your Email:
+                                        Correo:
                                     </label>
                                     <div className='form-icon relative mt-2'>
                                         <i
@@ -69,7 +69,7 @@ const ContactForm = () => {
                                             id='email'
                                             type='email'
                                             className='form-input pl-11'
-                                            placeholder='Email :'
+                                            placeholder='Correo'
                                         />
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@ const ContactForm = () => {
                             <div className='mb-5'>
                                 <div className='text-left'>
                                     <label htmlFor='subject' className='font-semibold'>
-                                        Your Question:
+                                        Consulta:
                                     </label>
                                     <div className='form-icon relative mt-2'>
                                         <i
@@ -92,7 +92,7 @@ const ContactForm = () => {
                                             name='subject'
                                             id='subject'
                                             className='form-input pl-11'
-                                            placeholder='Subject :'
+                                            placeholder='Asunto'
                                         />
                                     </div>
                                 </div>
@@ -100,7 +100,7 @@ const ContactForm = () => {
                             <div className='mb-5'>
                                 <div className='text-left'>
                                     <label htmlFor='comments' className='font-semibold'>
-                                        Your Comment:
+                                        Comentarios:
                                     </label>
                                     <div className='form-icon relative mt-2'>
                                         <i
@@ -113,7 +113,7 @@ const ContactForm = () => {
                                             name='message'
                                             id='comments'
                                             className='form-input pl-11 h-28'
-                                            placeholder='Message :'
+                                            placeholder='Mensaje'
                                             defaultValue={''}
                                         />
                                     </div>
@@ -126,7 +126,7 @@ const ContactForm = () => {
                             name='send'
                             className='btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md justify-center flex items-center'
                         >
-                            Send Message
+                            Enviar
                         </button>
                     </form>
                 </div>

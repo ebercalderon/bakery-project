@@ -5,8 +5,8 @@ export default {
     email: '',
     address: '',
     openHours: {
-        weekdays: '10 AM - 11 PM',
-        weekends: '9 AM - 1 PM',
+        weekdays: '6 AM - 9 PM',
+        weekends: '6:30 AM - 1 PM',
     },
     socials: [
         {

@@ -15,17 +15,16 @@ const ContactsPage = () => {
                                     <i className='uil uil-phone'/>
                                 </div>
                                 <div className='content mt-7'>
-                                    <h5 className='title h5 text-xl font-medium'>Phone</h5>
+                                    <h5 className='title h5 text-xl font-medium'>Celular</h5>
                                     <p className='text-slate-400 mt-3'>
-                                        The phrasal sequence of the is now so that many campaign and
-                                        benefit
+                                        Llamamos o envíanos un WhatsApp para tus consultas
                                     </p>
                                     <div className='mt-5'>
                                         <a
-                                            href='tel:+152534-468-854'
+                                            href='tel:+51991150180'
                                             className='btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out'
                                         >
-                                            +99890 120-24-67
+                                            +51 991 150 180
                                         </a>
                                     </div>
                                 </div>
@@ -38,15 +37,14 @@ const ContactsPage = () => {
                                 <div className='content mt-7'>
                                     <h5 className='title h5 text-xl font-medium'>Email</h5>
                                     <p className='text-slate-400 mt-3'>
-                                        The phrasal sequence of the is now so that many campaign and
-                                        benefit
+                                        Solicitanos información más detallada por correo
                                     </p>
                                     <div className='mt-5'>
                                         <a
                                             href='mailto:contact@example.com'
                                             className='btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out'
                                         >
-                                            sayyodmirzomitdinov@gmail.com
+                                            panaderiagrisela@gmail.com
                                         </a>
                                     </div>
                                 </div>
@@ -59,16 +57,16 @@ const ContactsPage = () => {
                                 <div className='content mt-7'>
                                     <h5 className='title h5 text-xl font-medium'>Location</h5>
                                     <p className='text-slate-400 mt-3'>
-                                        C/54 Northwest Freeway, Suite 558, <br/>
-                                        Houston, USA 485
+                                        Calle Sta Rosalía 482 <br/>
+                                        Lima 15088, Perú
                                     </p>
                                     <div className='mt-5'>
                                         <a
-                                            href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin'
+                                            href='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7803.3662749566865!2d-77.07432144034652!3d-12.065308954678951!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd850e8222620594e!2sPanaderia%2C%20Pasteria%20Y%20Bodega%20Grisela!5e0!3m2!1sen!2sus!4v1665613208295!5m2!1sen!2sus'
                                             data-type='iframe'
                                             className='video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out'
                                         >
-                                            View on Google map
+                                            Ver en Google Maps
                                         </a>
                                     </div>
                                 </div>
@@ -91,7 +89,7 @@ const ContactsPage = () => {
                     <div className='grid grid-cols-1'>
                         <div className='w-full leading-[0] border-0'>
                             <iframe
-                                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d752.5948197353637!2d70.0592161881366!3d41.01695741058406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcfaa0c2fdd566256!2zNDHCsDAxJzAxLjAiTiA3MMKwMDMnMzUuMiJF!5e0!3m2!1sen!2s!4v1662547240875!5m2!1sen!2s'
+                                src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7803.3662749566865!2d-77.07432144034652!3d-12.065308954678951!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd850e8222620594e!2sPanaderia%2C%20Pasteria%20Y%20Bodega%20Grisela!5e0!3m2!1sen!2sus!4v1665613208295!5m2!1sen!2sus'
                                 style={{border: 0}}
                                 className='w-full h-[500px]'
                                 allowFullScreen

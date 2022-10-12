@@ -37,7 +37,7 @@ const Footer = () => {
                                     </h5>
                                     <p className='mb-2'>Panadería Grisela</p>
                                     <p className='mb-0'>
-                                        Calle Sta Rosalía 482, Cercado de Lima 15088
+                                        Calle Sta Rosalía 482, Lima 15088, Perú
                                     </p>
                                 </div>
                             </div>
