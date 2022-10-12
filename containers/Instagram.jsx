@@ -41,7 +41,7 @@ const Instagram = () => {
                         target='_blank'
                         className='btn btn-sm bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md'
                     >
-                        Follow Now
+                        Síguenos
                     </a>
                 </div>
             </div>

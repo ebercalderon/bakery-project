@@ -25,11 +25,10 @@ const Testimonials = () => {
             <div className='container'>
                 <div className='grid grid-cols-1 pb-8 text-center'>
                     <h3 className='mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold'>
-                        Happy Client's
+                        ¿Qué dicen nuestros clientes?
                     </h3>
                     <p className='text-slate-400 max-w-xl mx-auto'>
-                        Splash your dream color Bring your home to lively Colors. We make it
-                        a priority to offer flexible services to accomodate your needs
+                        Nuestros clientes nos recomiendan y valoran nuestros productos y servicios
                     </p>
                 </div>
                 {/*end grid*/}

@@ -1,17 +1,17 @@
 export default [
     {
-        title: 'Food Meets Style',
-        text: 'The phrasal sequence of the is now so that many campaign and benefit',
+        title: 'Estilos innovadores',
+        text: 'Cada producto es una mezcla de ingenio y explosión de sabores',
         icon: 'uil uil-pizza-slice',
     },
     {
-        title: 'Quality Check',
-        text: 'The phrasal sequence of the is now so that many campaign and benefit',
+        title: 'Calidad verificada',
+        text: 'Nos reguimos de las normas de salubridad y funcionamiento',
         icon: 'uil uil-restaurant',
     },
     {
-        title: 'Home Delivery',
-        text: 'The phrasal sequence of the is now so that many campaign and benefit',
-        icon: 'uil uil-swiggy',
+        title: 'Responsanbilidad',
+        text: 'Garantizamos nuestros tiempos de despacho y entrega',
+        icon: 'uil uil-check-circle',
     },
 ];

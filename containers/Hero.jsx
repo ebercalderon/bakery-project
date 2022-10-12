@@ -16,13 +16,12 @@ const Hero = () => {
                             Panadería Grisela <br/> Panes de alta calidad
                         </h1>
                         <p className='text-white/70 text-lg max-w-xl mx-auto'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Todos nuestros productos son saludables, elaborados con pasión  talento e innovamos según las necesidades de nuestros clientes.
                         </p>
                         <div className='mt-8'>
-                            <Link href='/pages#table'>
+                            <Link href='/products'>
                                 <a className='btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md'>
-                                    <i className='uil uil-restaurant'/> Opción
+                                    <i className='uil uil-restaurant'/> Productos
                                 </a>
                             </Link>
                         </div>

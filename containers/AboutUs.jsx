@@ -15,19 +15,19 @@ const AboutUs = () => {
                     <div className='lg:col-span-7 md:col-span-6'>
                         <div className='lg:ml-6'>
                             <h4 className='my-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold'>
-                                Food is our common ground, <br/> a universal experience.
+                                El sabor que nos distingue, <br/> una experiencia única.
                             </h4>
                             <p className='text-slate-400 text-lg mb-0'>
-                                The phrasal sequence of the Lorem Ipsum text is now so
-                                widespread and commonplace that many DTP programmes can generate
-                                dummy text using the starting sequence "Lorem ipsum".
+                                A lo largo de nuestros años hemos logrado perfeccionar cada proceso en la elaboración
+                                de nuestros panes, pasteles y productos en general, lo que nos garantiza una excelencia
+                                en la calidad de nuestra producción.
                             </p>
 
                             <p className='text-slate-400'>
-                                Fortunately, the phrase 'Lorem Ipsum' is now recognized by
-                                electronic pre-press systems and, when found, an alarm can be
-                                raised. This avoids a publication going to print with overlooked
-                                dummy text.
+                                Trabajamos con proveedores reconocidos y certicados que nos dan un respaldo y seguridad
+                                en cada producto que elaboramos, también contamos con servicio de pedidos a gustos del
+                                cliente, nuestras instalaciones son modernas,  asimismo contamos con un horno tradicional para eventos
+                                especiales.
                             </p>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const AboutUs = () => {
                             </div>
                             <div className='content mt-7'>
                                 <a
-                                    href='page-services.html'
+                                    href='#'
                                     className='title h5 text-lg font-medium hover:text-indigo-600'
                                 >
                                     {item.title}

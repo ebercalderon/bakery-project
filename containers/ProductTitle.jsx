@@ -9,10 +9,10 @@ const ProductTitle = () => {
             <div className='absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black'/>
             <div className='absolute bottom-0 right-0 left-0 text-center px-3'>
                 <h5 className='text-slate-400 text-xl leading-normal font-semibold'>
-                    Our Menu
+                    Nuestros productos
                 </h5>
                 <h4 className='md:text-3xl text-2xl md:leading-normal leading-normal font-semibold text-white mb-5'>
-                    Choose your mixture &amp; order now!
+                    ¡Escoge tus favoritos y disfruta!
                 </h4>
             </div>
         </section>
