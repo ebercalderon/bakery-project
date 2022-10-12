@@ -24,7 +24,7 @@ const times = [
     '18:00',
 ];
 
-const Reservation = () => {
+const Order = () => {
     const {register, handleSubmit} = useForm();
 
     const submit = (data) => {
@@ -146,4 +146,4 @@ const Reservation = () => {
     );
 };
 
-export default Reservation;
+export default Order;

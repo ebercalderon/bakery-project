@@ -1,4 +1,4 @@
-const MenuTitle = () => {
+const ProductTitle = () => {
     return (
         <section
             style={{
@@ -19,4 +19,4 @@ const MenuTitle = () => {
     );
 };
 
-export default MenuTitle;
+export default ProductTitle;

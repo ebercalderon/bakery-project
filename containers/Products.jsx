@@ -1,7 +1,7 @@
-import menuData from 'data/menu.data';
+import productData from 'data/product.data';
 import {useState} from 'react';
 
-const Menu = () => {
+const Products = () => {
     const [selectedCategory, setSelectedCategory] = useState(null);
     console.log('selec: ', selectedCategory);
     return (
@@ -18,9 +18,9 @@ const Menu = () => {
                   transition duration-500 ${!selectedCategory ? 'active' : ''}`}
                                     onClick={() => setSelectedCategory(null)}
                                 >
-                                    All
+                                    Todo
                                 </li>
-                                {[...new Set(menuData.map((item) => item.category))].map(
+                                {[...new Set(productData.map((item) => item.category))].map(
                                     (item, index) => (
                                         <li
                                             key={index}
@@ -44,7 +44,7 @@ const Menu = () => {
             </div>
             {/*end container*/}
             <div className='container mt-8 grid grid-cols-3 gap-4'>
-                {menuData
+                {productData
                     .filter((item) =>
                         selectedCategory === null
                             ? item
@@ -77,4 +77,4 @@ const Menu = () => {
     );
 };
 
-export default Menu;
+export default Products;

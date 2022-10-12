@@ -1,8 +1,8 @@
 import AboutUs from 'containers/AboutUs';
 import Hero from 'containers/Hero';
-import MenuTitle from 'containers/MenuTitle';
-import Menu from 'containers/Menu';
-import Reservation from 'containers/Reservation';
+import ProductTitle from 'containers/ProductTitle';
+import Products from 'containers/Products';
+import Order from 'containers/Order';
 import Testimonials from 'containers/Testimonials';
 import Instagram from 'containers/Instagram';
 
@@ -12,9 +12,9 @@ export default function Home() {
             <div>
                 <Hero/>
                 <AboutUs/>
-                <MenuTitle/>
-                <Menu/>
-                <Reservation/>
+                <ProductTitle/>
+                <Products/>
+                <Order/>
                 <Testimonials/>
                 <Instagram/>
             </div>
