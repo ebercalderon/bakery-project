@@ -10,16 +10,16 @@ const Footer = () => {
                                     <h5 className='tracking-[1px] text-gray-100 font-semibold mb-4'>
                                         Horario de Atención
                                     </h5>
-                                    <p className='mb-2'>Lunes - Sábado: 6 AM - 10 PM</p>
+                                    <p className='mb-2'>Lunes a Sábado: 6 AM - 9 PM</p>
                                     <p className='mb-0'>Domingos: 6:30 AM - 1 PM</p>
                                 </div>
                                 <div className='text-center'>
                                     <h5 className='tracking-[1px] text-gray-100 font-semibold mb-4'>
-                                        Reservas
+                                        Teléfono
                                     </h5>
                                     <p className='mb-2'>
-                                        <a href='tel:+152534-468-854' className='text-gray-200'>
-                                            +01 564-6456
+                                        <a href='tel:+15646456' className='text-gray-200'>
+                                            (01) 564-6456
                                         </a>
                                     </p>
                                     <p className='mb-0'>
@@ -44,7 +44,7 @@ const Footer = () => {
                             <div className='grid grid-cols-1 mt-12'>
                                 <div className='text-center'>
                                     <img
-                                        src='assets/images/logo-icon-80.png'
+                                        src='assets/images/logo-icon.png'
                                         className='block mx-auto'
                                         alt=''
                                     />
@@ -141,7 +141,6 @@ const Footer = () => {
                             <span target='_blank' className='text-reset'>
 								Eber Calderon
 							</span>
-                            .
                         </p>
                     </div>
                 </div>

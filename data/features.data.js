@@ -1,26 +1,26 @@
 export default [
     {
         icon: 'uil uil-restaurant',
-        text: 'Healthy Food',
+        text: 'Alimentos saludables',
     },
     {
-        icon: 'uil uil-restaurant',
-        text: 'Vegy Food',
+        icon: 'uil uil-heart-alt',
+        text: 'Pasión',
     },
     {
-        icon: 'uil uil-restaurant',
-        text: 'Best service ever',
+        icon: 'uil uil-shield-check',
+        text: 'Responsabilidad',
     },
     {
-        icon: 'uil uil-restaurant',
-        text: 'Healthy Food',
+        icon: 'uil uil-play',
+        text: 'Innovadores',
     },
     {
-        icon: 'uil uil-restaurant',
-        text: 'Vegy Food',
+        icon: 'uil uil-star',
+        text: 'Expertos',
     },
     {
-        icon: 'uil uil-restaurant',
-        text: 'Best service ever',
+        icon: 'uil uil-package',
+        text: 'Auténticos',
     },
 ];

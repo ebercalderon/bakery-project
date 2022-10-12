@@ -5,7 +5,7 @@ import Link from 'next/link';
 const AboutPage = () => {
     return (
         <>
-            <Breadcrumb bgImage={'assets/images/menu.jpg'} title='SOBRE NOSOTROS'/>
+            <Breadcrumb bgImage={'assets/images/product.jpg'} title='SOBRE NOSOTROS'/>
 
             <section className='relative md:py-24 py-16'>
                 <div className='container'>
@@ -44,9 +44,9 @@ const AboutPage = () => {
                                         +
 										<span
                                             className='counter-value text-6xl font-bold'
-                                            data-target={15}
+                                            data-target={25}
                                         >
-											20
+											25
 										</span>
 
 									</span>
@@ -74,9 +74,9 @@ const AboutPage = () => {
                     </div>
                 </div>
             </section>
-            <section className='relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800'>
+            <section className='relative md:py-8 py-16 bg-gray-50 dark:bg-slate-800'>
                 <div className='container'>
-                    <div className='grid grid-cols-1 pb-8 text-center'>
+                    <div className='grid grid-cols-1 pb-16 text-center'>
                         <h3 className='mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold'>
                             Misión
                         </h3>
@@ -88,7 +88,7 @@ const AboutPage = () => {
                         </p>
                     </div>
                     {/*end grid*/}
-                    <div className='grid grid-cols-1 pb-8 text-center'>
+                    <div className='grid grid-cols-1 pb-16 text-center'>
                         <h3 className='mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold'>
                             Visión
                         </h3>
@@ -98,6 +98,12 @@ const AboutPage = () => {
                             procesos y servicios que marquen la pauta creciendo rentablemente y
                             logrando mayor desarrollo y bienestar para sus inversionistas y trabajadores.
                         </p>
+                    </div>
+                    {/*end grid*/}
+                    <div className='grid grid-cols-1 pt-8 text-center'>
+                        <h3 className='mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold'>
+                            ¿Qué nos diferencia?
+                        </h3>
                     </div>
                     {/*end grid*/}
                     <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px] mt-8'>

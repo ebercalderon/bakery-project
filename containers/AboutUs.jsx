@@ -29,9 +29,6 @@ const AboutUs = () => {
                                 raised. This avoids a publication going to print with overlooked
                                 dummy text.
                             </p>
-                            <div className='mt-6'>
-                                <img src='assets/images/sign.png' alt=''/>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@ const MenuTitle = () => {
     return (
         <section
             style={{
-                backgroundImage: 'url(/assets/images/menu.jpg)',
+                backgroundImage: 'url(/assets/images/product.jpg)',
             }}
             className='relative py-36 bg-no-repeat bg-fixed bg-top'
         >
