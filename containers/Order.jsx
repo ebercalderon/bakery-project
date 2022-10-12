@@ -47,48 +47,47 @@ const Order = () => {
                             <div className='section-title mb-4'>
 								<span
                                     className='bg-indigo-600/5 text-indigo-600 text-xs font-bold px-2.5 py-0.5 rounded h-5'>
-									Reservation
+									Pedidos
 								</span>
                                 <h4 className='text-4xl font-bold uppercase my-4'>
-                                    Book A Table
+                                    Haz tu consulta
                                 </h4>
                                 <p className='text-slate-400 mx-auto para-desc'>
-                                    We make it a priority to offer flexible services to accomodate
-                                    your needs
+                                    Nuestra prioridad es ofrecer servicios flexibles para satisfacer sus necesidades.
                                 </p>
                             </div>
                             <form onSubmit={handleSubmit(submit)}>
                                 <div className='grid md:grid-cols-2 gap-4 mt-6'>
                                     <div>
-                                        <label className='font-semibold'>Your Name</label>
+                                        <label className='font-semibold'>Nombres:</label>
                                         <input
                                             {...register('name', {required: true})}
                                             type='text'
                                             className='form-input mt-2'
-                                            placeholder='First Name :'
+                                            placeholder='Nombres'
                                         />
                                     </div>
                                     <div>
-                                        <label className='font-semibold'>Your Email</label>
+                                        <label className='font-semibold'>Correo:</label>
                                         <input
                                             {...register('email')}
                                             type='email'
                                             className='form-input mt-2'
-                                            placeholder='Your email :'
+                                            placeholder='Correo'
                                         />
                                     </div>
                                     <div>
-                                        <label className='font-semibold'>Phone no.</label>
+                                        <label className='font-semibold'>Celular</label>
                                         <input
                                             type='phone'
                                             {...register('phone')}
                                             id='phone-number'
                                             className='form-input mt-2'
-                                            placeholder='Phone no. :'
+                                            placeholder='N° celular'
                                         />
                                     </div>
                                     <div>
-                                        <label className='font-semibold'>Person</label>
+                                        <label className='font-semibold'>Cantidad</label>
                                         <input
                                             type='number'
                                             {...register('qty', {
@@ -99,11 +98,11 @@ const Order = () => {
                                             min={0}
                                             max={8}
                                             className='form-input mt-2'
-                                            placeholder='Person :'
+                                            placeholder='N° Productos'
                                         />
                                     </div>
                                     <div>
-                                        <label className='font-semibold'>Date</label>
+                                        <label className='font-semibold'>Fecha</label>
                                         <input
                                             {...register('date', {
                                                 required: true,
@@ -114,7 +113,7 @@ const Order = () => {
                                         />
                                     </div>
                                     <div>
-                                        <label className='font-semibold'>Time</label>
+                                        <label className='font-semibold'>Hora</label>
                                         <select {...register('time')} className='form-input mt-2'>
                                             {times.map((item, index) => (
                                                 <option key={index} value={item}>
@@ -124,12 +123,32 @@ const Order = () => {
                                         </select>
                                     </div>
                                 </div>
+                                <div className='mt-6'>
+                                    <div>
+                                        <label htmlFor='comments' className='font-semibold'>
+                                            Detalles:
+                                        </label>
+                                        <div className='form-icon relative mt-2'>
+                                            <i
+                                                data-feather='message-circle'
+                                                className='w-4 h-4 absolute top-3 left-4'
+                                            />
+                                            <textarea
+                                                name='message'
+                                                id='comments'
+                                                className='form-input pl-11 h-28'
+                                                placeholder='Detallanos lo que podemos ofrecerte'
+                                                defaultValue={''}
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
                                 {/*end grid*/}
                                 <div className='grid grid-cols-1 mt-4'>
                                     <input
                                         type='submit'
                                         className='btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md w-full'
-                                        defaultValue='Book a table'
+                                        defaultValue='Enviar'
                                     />
                                 </div>
                                 {/*end grid*/}

@@ -1,6 +1,6 @@
 export default [
     {
-        text: 'Deliciosos pasteles, productos del día y a un precio justo. El trato y el lugar son gratos',
+        text: 'Deliciosos pasteles, productos del día y a un precio justo. El trato y el lugar son gratos.',
         name: 'Alicia Marquez',
         avatar:
             'https://shreethemes.in/techwind/layouts/assets/images/client/02.jpg',
@@ -21,7 +21,7 @@ export default [
         rating: '3.5',
     },
     {
-        text: 'El lugar es poco metido pero vale la pena por sus panes y pastelitos, encantada',
+        text: 'Por la ubicación demoro en llegar pero vale la pena por sus panes y pastelitos, encantada.',
         name: 'Brenda Villegas',
         avatar:
             'https://shreethemes.in/techwind/layouts/assets/images/client/03.jpg',
