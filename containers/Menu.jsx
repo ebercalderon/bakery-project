@@ -43,7 +43,7 @@ const Menu = () => {
                 {/*grid*/}
             </div>
             {/*end container*/}
-            <div className='container mt-8 grid grid-cols-4 gap-4'>
+            <div className='container mt-8 grid grid-cols-3 gap-4'>
                 {menuData
                     .filter((item) =>
                         selectedCategory === null
