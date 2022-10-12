@@ -65,9 +65,11 @@ const Products = () => {
                                     {item.title}
                                 </a>
                                 <span className='text-slate-400 mt-2 block'>{item.text}</span>
+                                {/*
                                 <h5 className='text-indigo-600 font-medium mt-4'>
                                     {item.price}
                                 </h5>
+                                */}
                             </div>
                         </div>
                     ))}
